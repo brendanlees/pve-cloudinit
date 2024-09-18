@@ -3,7 +3,7 @@ A quick script to spin up a Proxmox cloud-init template base
 
 ## Set Up Script
 - Start a shell session on the Proxmox host
-- Clone the script - `git clone brendanlees/pve-cloudinit`
+- Clone the script - `git clone https://github.com/brendanlees/pve-cloudinit`
 - Edit the script and update the values under the `'# --- defaults'` area - `nano cloud-init.sh`
 - Make it executable - `chmod +x cloud-init.sh`
 - Run it! - `sudo sh cloud-init.sh`
